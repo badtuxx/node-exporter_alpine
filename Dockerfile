@@ -1,4 +1,5 @@
 FROM golang AS building
+LABEL maintainer="jeferson@linuxtips.com.br"
 
 RUN go get github.com/prometheus/node_exporter \
     && cd /go/src/github.com/prometheus/node_exporter/ \
