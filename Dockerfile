@@ -1,4 +1,5 @@
 FROM golang AS building
+
 LABEL maintainer="jeferson@linuxtips.com.br"
 LABEL version="1.0"
 
