@@ -2,7 +2,7 @@
 
 ## To run this image, execute:
 ```
-# docker container run -d --name node-exporter -p 9100:9100 -v /proc:/usr/proc -v /sys:/usr/sys -v /:/rootfs linuxtips/node-exporter_alpine
+# docker container run -d -p 9100:9100 -v /proc:/usr/proc -v /sys:/usr/sys -v /:/rootfs linuxtips/node-exporter_alpine
 ```
 
 Open http://your_ip:9100/metrics to access the metrics collected by Node-Exporter .
