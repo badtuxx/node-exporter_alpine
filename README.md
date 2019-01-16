@@ -1,6 +1,6 @@
 # Node_Exporter on Alpine 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxtips/node-exporter_alpine.svg)](https://hub.docker.com/r/sophos/nginx-prometheus-metrics/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxtips/node-exporter_alpine.svg)](https://cloud.docker.com/u/linuxtips/repository/docker/linuxtips/node-exporter_alpine/)
 
 ## To run this image, execute:
 ```
